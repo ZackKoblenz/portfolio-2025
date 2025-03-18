@@ -12,6 +12,12 @@ body {
   margin: 0;
   backdrop-filter: blur(10px);
   min-height: 100vh;
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  scrollbar-width: none;  /* Firefox */
+}
+
+::-webkit-scrollbar{
+  display: none;
 }
 
 .Navbar {
@@ -19,8 +25,11 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 16px 100px;
-  background-color: #222;
+  background-color: #0e0e0e;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
+
+
 
 header img {
   height: 52px;
@@ -37,17 +46,20 @@ nav ul li a {
   font-weight: bold;
 }
 
-.social-icons a {
+.social-icons img {
   margin-left: 10px;
+  margin-right: 10px;
   color: white;
   text-decoration: none;
   font-size: 20px;
+  display: inline-flex;
+  justify-content: space-between;
 }
 
 .scroll-bar {
   height: 5px;
-  background: rgb(255, 238, 0);
   position: sticky;
+  background-color: #111;
   top: 0;
   width: 100%;
   transition: background 0.3s linear;
@@ -72,4 +84,9 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
+}
+
+.projects {
+  padding: 10px;
+  margin: 10px;
 }
