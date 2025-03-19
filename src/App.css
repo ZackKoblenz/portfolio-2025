@@ -33,7 +33,10 @@ body {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-
+.points {
+  list-style: inside;
+  text-align: left;
+}
 
 header img {
   height: 52px;

@@ -16,7 +16,20 @@ function Projects() {
         <div className='Navbar'>
             <img src={kobot} className="h-100 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-101"></img>
             <div className=" flex flex-col justify-center content-center w-1/4 gap-8 ">
-                <p className="text-xl text-left"> Ko Bot is a full-stack application that allows a user to log into the front end, stores data like custom commands, and allows users to enable/disable, whitelist, set permissions, or delete commands.</p>
+                <ul className='points'>
+                  <li>
+                  Allows for users to sign in with Twitch and create custom commands for their Twitch chat
+                  </li>
+                  <li>
+                  This website serves twitch streamers that want the ability to allow whitelisted users to switch between moderator status, vip status, and normal viewer status.
+                  </li>
+                  <li>
+                  Created the backend Rest API in NodeJS with ExpressJS
+                  </li>
+                  <li>
+                  Created with Javascript, HTML, CSS, ExpressJS, NodeJS, MySQL.
+                  </li>
+                </ul>
               <div className='flex justify-center'>
                 <a href="https://github.com/ZackKoblenz/" className='justify-center'><img src={github} className="h-5"></img></a>
               </div>
@@ -31,7 +44,17 @@ function Projects() {
         <div className='Navbar'>
             <img src={points} className="h-100 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-101"></img>
             <div className="flex flex-col w-1/4 gap-8 ">
-              <p className="text-xl text-left"> Incentive Points is a front-end application that allows a user to set credentials for an api to get information for interactions on their Twitch channel. They can then set settings to their liking for how the widget looks and updates. The Primary use for this is to allow a user to track multiple interactions into a single point system.</p>
+              <ul className="points">
+                <li>
+                Designed UI for Web App built with vanilla JavaScript, HTML, and CSS. 
+                </li>
+                <li>
+                Wrote the outline for all functionality and uses of the Web App.
+                </li>
+                <li>
+                Utilized JavaScripts LocalStorage feature as a temporary way to store the data.
+                </li>
+              </ul>
               <div className='flex justify-center'>
                 <a href="https://github.com/ZackKoblenz/" className='justify-center'><img src={github} className="h-5"></img></a>
               </div>
