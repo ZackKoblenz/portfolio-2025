@@ -7,6 +7,8 @@ import koth from '../assets/koth tracker.png'
 import github from '../assets/github-mark-white.svg'
 import dogpark from '../assets/dog park.png'
 import corecraft from '../assets/corecraft.png'
+
+
 function Projects() {
   return (
     <div>

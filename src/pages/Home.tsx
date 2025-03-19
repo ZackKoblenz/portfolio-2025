@@ -8,12 +8,16 @@ import AppearingElement from '../components/AppearingElement copy'
 import DisappearingElement from '../components/DisappearingElement'
 import Progress from '../components/Progress'
 import Aboutme from './Aboutme'
+import Technologies from './Technologies'
+
 function Home() {
 return (
     <>
         <DisappearingElement children={<Progress />} />
         <AppearingElement children={<Aboutme />} />
+        <AppearingElement children={<Technologies />} />
         <AppearingElement children={<Projects />} />
+        
         <br></br>
         <br></br>
         <br></br>
