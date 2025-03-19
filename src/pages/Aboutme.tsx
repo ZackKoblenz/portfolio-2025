@@ -14,7 +14,7 @@ function Aboutme() {
         Web Developer | Education - LaunchCode | Location - St. Louis
       </h2>
       <p>
-        I learning full-stack web development in 2022 through LaunchCode. 
+        I started learning full-stack web development in 2022 through LaunchCode. 
       </p>
       <p>I've always been interested in computers, coding and technology, so learning web-dev was right up my alley!</p>
       <p>I love learning and growing, so any opportunity I get to ask questions and dig deeper into new topics is a great day for me.</p>

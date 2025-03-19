@@ -5,7 +5,8 @@ import points from '../assets/incentive points.png'
 import generator from '../assets/bingo generator.png'
 import koth from '../assets/koth tracker.png'
 import github from '../assets/github-mark-white.svg'
-
+import dogpark from '../assets/dog park.png'
+import corecraft from '../assets/corecraft.png'
 function Projects() {
   return (
     <div>
@@ -36,6 +37,36 @@ function Projects() {
             </div>
             
         </div>
+        
+    </div>
+    <div className="projects w-full text-center ">
+        <div className='Navbar'>
+        <h1>Corecraft Website</h1>
+        </div>
+        <div className='Navbar'>
+            <img src={corecraft} className="h-100 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-101"></img>
+            <div className=" flex flex-col justify-center content-center w-1/4 gap-8 ">
+                <ul className='points'>
+                  <li>
+                  Allows for users to stay up to date with members of a Content Creator Minecraft server
+                  </li>
+                  <li>
+                  This website serves content related to Corecraft SMP to its audience in a clear and concise location and format
+                  </li>
+                  <li>
+                  The main purpose of the website is to display information about Corecraft and show which members are livestreaming and all of their related YouTube content which is updated automatically using the YouTube API
+                  </li>
+                  <li>
+                  Created with Typescript, React, HTML, Tailwind CSS, ExpressJS, MySQL.
+                  </li>
+                </ul>
+              <div className='flex justify-center'>
+                <a href="https://github.com/ZackKoblenz/" className='justify-center'><img src={github} className="h-5"></img></a>
+              </div>
+            </div>
+            
+        </div>
+        
     </div>
     <div className="projects w-full text-center">
     <div className='Navbar'>
@@ -86,8 +117,40 @@ function Projects() {
               <div className='flex justify-center'>
                 <a href="https://github.com/ZackKoblenz/" className='justify-center'><img src={github} className="h-5"></img></a>
               </div>
+            </div>    
+        </div>
+      </div>
+    <div className="projects w-full text-center">
+    <div className='Navbar'>
+        <h1>Dog Park Website</h1>
+    </div>
+        <div className='Navbar'>
+            <img src={dogpark} className="h-100 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-101"></img>
+            <div className="flex flex-col w-1/4 gap-8 ">
+              <ul className="points">
+                <li>
+                Allows for users to create an account, reserve time slots at a dog park, and create a profile for themselves and their pets.
+                </li>
+                <li>
+                This website serves pet owners that want an indoor and private place to take their pets to play and exercise.
+                </li>
+                <li>
+                Created the backend Rest API  in Java SpringBoot that Creates, Reads, Updates, and Deletes data for the website
+                </li>
+                <li>
+                Initialized the frontend Angular JS CLI for the team to create UI components
+                </li>
+                <li>
+                Wrote the navbar component for the user interface
+                </li>
+                <li>
+                Created with AngularJS CLI, TypeScript, HTML, CSS, Java, SpringBoot, and MySQL.
+                </li>
+              </ul>
+              <div className='flex justify-center'>
+                <a href="https://github.com/ZackKoblenz/" className='justify-center'><img src={github} className="h-5"></img></a>
+              </div>
             </div>
-            
         </div>
     </div>
     </div>
