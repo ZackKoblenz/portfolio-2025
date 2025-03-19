@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-function AppearingElement({ children, delay = 3000 }) {
+function AppearingElement({ children, delay = 3100 }) {
   const [isVisible, setIsVisible] = useState(false);
 
   useEffect(() => {

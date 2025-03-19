@@ -10,8 +10,9 @@ function Projects() {
   return (
     <div>
       <div className="projects w-full text-center ">
+        <div className='Navbar'>
         <h1>KoBot</h1>
-        <br></br>
+        </div>
         <div className='Navbar'>
             <img src={kobot} className="h-100 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-101"></img>
             <div className=" flex flex-col justify-center content-center w-1/4 gap-8 ">
@@ -24,8 +25,9 @@ function Projects() {
         </div>
     </div>
     <div className="projects w-full text-center">
+    <div className='Navbar'>
         <h1>Incentive Points</h1>
-        <br></br>
+    </div>
         <div className='Navbar'>
             <img src={points} className="h-100 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-101"></img>
             <div className="flex flex-col w-1/4 gap-8 ">
@@ -37,8 +39,9 @@ function Projects() {
         </div>
     </div>
     <div className="projects w-full text-center">
+      <div className='Navbar'>
         <h1>Bingo Generator</h1>
-        <br></br>
+      </div>
         <div className='Navbar'>
             <img src={generator} className="h-100 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-101"></img>
             <div className=" flex flex-col w-1/4 gap-8 ">
@@ -50,8 +53,9 @@ function Projects() {
         </div>
     </div>
     <div className="projects w-full text-center">
+      <div className='Navbar'>
         <h1>King of the Hill Tracker</h1>
-        <br></br>
+      </div>
         <div className='Navbar'>
             <img src={koth} className="h-100 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-101"></img>
             <div className=" flex flex-col w-1/4 gap-8  ">

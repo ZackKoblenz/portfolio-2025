@@ -9,7 +9,8 @@
 body {
   font-family: Montserrat;
   font-weight: 600;
-  background: url('assets/necklace.png') no-repeat center fixed;
+  /* background: url('assets/necklace.png') no-repeat center fixed; */
+  background-color: rgb(36, 36, 36);
   background-size: cover;
   background-position-y: 125%; 
   color: white;

@@ -18,7 +18,7 @@ export default function ScrollProgressBar() {
   return (
     <>
       {/* Scroll Progress Bar */}
-      <div className="scroll-bar top-0 left-0 w-full h-2 bg-black-900 z-50">
+      <div className="scroll-bar top-0 left-0 w-full h-2 bg-black-900 z-100">
         <div 
           className="h-full" 
           style={{ width: `${scrollPercent}%`, backgroundColor: `rgb(255, 255, 0)` }} 
