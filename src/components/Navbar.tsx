@@ -29,8 +29,8 @@ function Navbar() {
   return (
     <>
     
-    <Scrollbar />
-      <div className={`Navbar sticky top-0 h-82px left-0 w-full bg-black text-white p-4 z-0 
+
+      <div className={`Navbar sticky top-0 h-82px left-0 w-full bg-black text-white p-4 z-50
         transition-transform duration-300 ${showNavbar ? "translate-y-0" : "-translate-y-full"}`}>
           <div>
             <img src={logo} width="50px" alt="Koblenz Media Logo" />

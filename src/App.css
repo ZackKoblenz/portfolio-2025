@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -5,12 +7,13 @@
 }
 
 body {
-  font-family: Arial, sans-serif;
-  background: url('images/background.png') no-repeat center center fixed;
+  font-family: Montserrat;
+  font-weight: 600;
+  background: url('assets/necklace.png') no-repeat center fixed;
   background-size: cover;
+  background-position-y: 125%; 
   color: white;
   margin: 0;
-  backdrop-filter: blur(10px);
   min-height: 100vh;
   -ms-overflow-style: none;  /* Internet Explorer 10+ */
   scrollbar-width: none;  /* Firefox */
