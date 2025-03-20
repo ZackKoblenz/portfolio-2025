@@ -2,7 +2,7 @@ import logo from '../assets/logo.png'
 import github from '../assets/github-mark-white.svg'
 import React, { useCallback, useEffect, useRef, useState } from 'react'
 import Scrollbar from './Scrollbar.tsx'
-
+import linkedin from '../assets/In-White-96.png'
 function Navbar() {
 
     const [showNavbar, setShowNavbar] = useState(true);
@@ -44,6 +44,7 @@ function Navbar() {
             </ul> */}
           </nav>
           <div className="social-icons">
+              <a href="https://www.linkedin.com/in/zackkoblenz/"><img src={linkedin} className="h-5"></img></a>
               <a href="https://github.com/ZackKoblenz/"><img src={github} className="h-5"></img></a>
           </div>
       </div>

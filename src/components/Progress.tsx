@@ -29,6 +29,7 @@ function Progress() {
 
   return (
     <div className="absolute top-1/2 bottom-1/2 w-screen h-screen">
+    <h1 className='flex justify-center mb-6'>Loading Your New Hire's Portfolio</h1>
     <div className='flex justify-center'>
         <progress className="progress progress-primary w-[50%]" value={count} max="100"></progress>
     </div>

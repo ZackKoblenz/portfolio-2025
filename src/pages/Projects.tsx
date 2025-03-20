@@ -7,19 +7,24 @@ import koth from '../assets/koth tracker.png'
 import github from '../assets/github-mark-white.svg'
 import dogpark from '../assets/dog park.png'
 import corecraft from '../assets/corecraft.png'
-
+import link from '../assets/link.svg'
 
 function Projects() {
   return (
     <div>
-      <div className="projects w-full text-center ">
+      <div className="projects w-90% text-center ">
         <div className='Navbar'>
         <h1>KoBot</h1>
+        <div className='flex justify-center social-icons'>
+          <a href="https://kobot.ble.nz" className='justify-center'><img src={link} className="h-5" /></a>
+          <a href="https://github.com/ZackKoblenz/KoBot" className='justify-center'><img src={github} className="h-5"></img></a>    
+        </div>
         </div>
         <div className='Navbar'>
-            <img src={kobot} className="h-100 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-101"></img>
+            <a href="https://kobot.ble.nz">
+              <img src={kobot} className="w-200 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-101"></img></a>
             <div className=" flex flex-col justify-center content-center w-1/4 gap-8 ">
-                <ul className='points'>
+                <ul className='points pl-8'>
                   <li>
                   Allows for users to sign in with Twitch and create custom commands for their Twitch chat
                   </li>
@@ -32,23 +37,26 @@ function Projects() {
                   <li>
                   Created with Javascript, HTML, CSS, ExpressJS, NodeJS, MySQL.
                   </li>
+                  <li>
+                    Plans to update the frontend to React.
+                  </li>
                 </ul>
-              <div className='flex justify-center'>
-                <a href="https://github.com/ZackKoblenz/" className='justify-center'><img src={github} className="h-5"></img></a>
-              </div>
             </div>
             
         </div>
         
     </div>
-    <div className="projects w-full text-center ">
+    <div className="projects w-90% text-center ">
         <div className='Navbar'>
-        <h1>Corecraft Website</h1>
+        <h1>Corecraft Website (WIP)</h1>
+        <div className='flex justify-center social-icons'>
+          <a href="https://github.com/ZackKoblenz/" className='justify-center'><img src={github} className="h-5"></img></a>    
+        </div>
         </div>
         <div className='Navbar'>
-            <img src={corecraft} className="h-100 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-101"></img>
+            <img src={corecraft} className="w-200 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-101"></img>
             <div className=" flex flex-col justify-center content-center w-1/4 gap-8 ">
-                <ul className='points'>
+                <ul className='points pl-8'>
                   <li>
                   Allows for users to stay up to date with members of a Content Creator Minecraft server
                   </li>
@@ -62,22 +70,23 @@ function Projects() {
                   Created with Typescript, React, HTML, Tailwind CSS, ExpressJS, MySQL.
                   </li>
                 </ul>
-              <div className='flex justify-center'>
-                <a href="https://github.com/ZackKoblenz/" className='justify-center'><img src={github} className="h-5"></img></a>
-              </div>
             </div>
             
         </div>
         
     </div>
-    <div className="projects w-full text-center">
+    <div className="projects w-90% text-center">
     <div className='Navbar'>
         <h1>Incentive Points</h1>
+        <div className='flex justify-center social-icons'>
+          <a href="https://zackkoblenz.github.io/Incentive-Points/" className='justify-center'><img src={link} className="h-5" /></a>
+          <a href="https://github.com/ZackKoblenz/Incentive-Points" className='justify-center'><img src={github} className="h-5"></img></a>    
+        </div>
     </div>
         <div className='Navbar'>
-            <img src={points} className="h-100 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-101"></img>
+            <a href="https://zackkoblenz.github.io/Incentive-Points/"><img src={points} className="w-200 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-101"></img></a>
             <div className="flex flex-col w-1/4 gap-8 ">
-              <ul className="points">
+              <ul className="points pl-8">
                 <li>
                 Designed UI for Web App built with vanilla JavaScript, HTML, and CSS. 
                 </li>
@@ -88,48 +97,46 @@ function Projects() {
                 Utilized JavaScripts LocalStorage feature as a temporary way to store the data.
                 </li>
               </ul>
-              <div className='flex justify-center'>
-                <a href="https://github.com/ZackKoblenz/" className='justify-center'><img src={github} className="h-5"></img></a>
-              </div>
             </div>
         </div>
     </div>
-    <div className="projects w-full text-center">
+    <div className="projects w-90% text-center">
       <div className='Navbar'>
         <h1>Bingo Generator</h1>
+        <div className='flex justify-center social-icons'>
+          <a href="https://zackkoblenz.github.io/BingoGenerator/" className='justify-center'><img src={link} className="h-5" /></a>
+          <a href="https://github.com/ZackKoblenz/BingoGenerator" className='justify-center'><img src={github} className="h-5"></img></a>    
+        </div>
       </div>
         <div className='Navbar'>
-            <img src={generator} className="h-100 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-101"></img>
+        <a href="https://zackkoblenz.github.io/BingoGenerator/"><img src={generator} className="w-200 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-101"></img></a>
             <div className=" flex flex-col w-1/4 gap-8 ">
                 <p className="text-xl text-left"> Bingo Generator is a front-end application that allows a user to quickly turn a list of words into a JSON object or string for Bingo websites that need a specific type of input to generate a board.</p>
-            <div className='flex justify-center'>
-              <a href="https://github.com/ZackKoblenz/" className='justify-center'><img src={github} className="h-5"></img></a>
-            </div>
           </div>
         </div>
     </div>
-    <div className="projects w-full text-center">
+    <div className="projects w-90% text-center">
       <div className='Navbar'>
         <h1>King of the Hill Tracker</h1>
       </div>
         <div className='Navbar'>
             <img src={koth} className="h-100 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-101"></img>
             <div className=" flex flex-col w-1/4 gap-8  ">
-                <p className="text-xl text-left"> King of the Hill Tracker is a work in progress full stack application that would allow a user to sign in with twitch and assign a channel point redemption to be tracked as a king of the hill reward. Redeemers would be tracked on a leaderboard for how long they held the reward total, what the longest single streak was, and how many time's they've been the King of the Hill.</p>
-              <div className='flex justify-center'>
-                <a href="https://github.com/ZackKoblenz/" className='justify-center'><img src={github} className="h-5"></img></a>
-              </div>
+                <p className="text-xl text-left pl-8"> King of the Hill Tracker is a work in progress full stack application that would allow a user to sign in with twitch and assign a channel point redemption to be tracked as a king of the hill reward. Redeemers would be tracked on a leaderboard for how long they held the reward total, what the longest single streak was, and how many time's they've been the King of the Hill.</p>
             </div>    
         </div>
       </div>
-    <div className="projects w-full text-center">
+    <div className="projects w-90% text-center">
     <div className='Navbar'>
         <h1>Dog Park Website</h1>
+        <div className='flex justify-center social-icons'>
+          <a href="https://github.com/ZackKoblenz/dogparkbackendlaunch" className='justify-center'><img src={github} className="h-5"></img></a>    
+        </div>
     </div>
         <div className='Navbar'>
-            <img src={dogpark} className="h-100 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-101"></img>
+            <img src={dogpark} className="w-200 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-101"></img>
             <div className="flex flex-col w-1/4 gap-8 ">
-              <ul className="points">
+              <ul className="points pl-8">
                 <li>
                 Allows for users to create an account, reserve time slots at a dog park, and create a profile for themselves and their pets.
                 </li>
@@ -149,9 +156,6 @@ function Projects() {
                 Created with AngularJS CLI, TypeScript, HTML, CSS, Java, SpringBoot, and MySQL.
                 </li>
               </ul>
-              <div className='flex justify-center'>
-                <a href="https://github.com/ZackKoblenz/" className='justify-center'><img src={github} className="h-5"></img></a>
-              </div>
             </div>
         </div>
     </div>

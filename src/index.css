@@ -35,6 +35,15 @@ body {
 
 }
 
+.unselectable {
+  user-drag: none; 
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
