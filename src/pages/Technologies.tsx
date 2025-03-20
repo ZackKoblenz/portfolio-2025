@@ -9,6 +9,7 @@ import node from '../assets/node.png'
 import java from '../assets/java.webp'
 import spring from '../assets/spring.png'
 import sql from '../assets/mysql.png'
+
 function Technologies() {
     const containerRef = useRef();
 
