@@ -14,6 +14,7 @@ function Home() {
 return (
     <>
         <DisappearingElement children={<Progress />} />
+        
         <AppearingElement children={<Aboutme />} />
         <AppearingElement children={<Technologies />} />
         <AppearingElement children={<Projects />} />

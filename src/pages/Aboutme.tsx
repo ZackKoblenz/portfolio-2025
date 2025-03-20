@@ -3,8 +3,8 @@ import pfp from '../assets/pfp.jpeg'
 
 function Aboutme() {
   return (
-<div className="hero bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 h-96">
-  <div className="hero-content flex-col lg:flex-row">
+<div className="hero bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 h-246 md:h-96">
+  <div className="hero-content flex-col md:flex-row m-8">
     <a href="https://www.linkedin.com/in/zackkoblenz/">
     <img
       src={pfp}

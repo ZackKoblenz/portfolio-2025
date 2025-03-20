@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 
-function DisappearingElement({ children, delay = 3100 }) {
+function DisappearingElement({ children, delay = 1600 }) {
   const [isVisible, setIsVisible] = useState(true);
 
   useEffect(() => {

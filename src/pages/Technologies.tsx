@@ -88,7 +88,7 @@ function Technologies() {
   return (
 <div className="my-0 overflow-x-scroll overflow-y-hidden items-center justify-center content-center cursor-grab" >
   <div className="flex flex-row overflow-x-scroll overflow-y-hidden items-center snap-x scroll-pl-[200px]  " ref={containerRef} onMouseDown={handleMouseDown} onTouchStart={handleTouchStart}>
-    <div className={`flex first4 items-center translate-x-32`}>
+    <div className={`flex first4 items-center md:translate-x-32`}>
     <div className='flipcard flex origin-center perspective-[1000px] h-[200px] w-[200px] transition delay-150 duration-300 ease-in-out m-8 my-16 hover:-translate-y-1 hover:scale-101 rotate-y-180 '>
     <div className="flipcardinner relative transform-3d transition delay-150 duration-300 ease-in-out w-full h-full hover:rotate-x-180">
       <div className="flipcardfront origin-center backface-hidden rounded-lg h-full w-full absolute shadow-2xl bg-linear-to-r from-blue-500/80 to-sky-500/80  snap-start scroll-ml-12">
@@ -154,7 +154,7 @@ function Technologies() {
     </div>
     </div>
     </div>
-    <div className='flex second4 items-center translate-x-32'>
+    <div className='flex second4 items-center md:translate-x-32'>
     <div className='flipcard flex origin-center perspective-[1000px] h-[200px] w-[200px] transition delay-150 duration-300 ease-in-out m-8 hover:-translate-y-1 hover:scale-101 rotate-y-180'>
     <div className="flipcardinner relative transform-3d transition delay-150 duration-300 ease-in-out w-full h-full hover:rotate-x-180">
       <div className="flipcardfront justify-center content-center align-middle items-center origin-center backface-hidden rounded-lg h-full w-full absolute shadow-2xl bg-linear-to-r from-blue-500/80 to-sky-500/80 snap-start">

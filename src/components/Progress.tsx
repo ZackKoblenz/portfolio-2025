@@ -5,7 +5,7 @@ function Progress() {
     const [count, setCount] = useState(0)
 
     let end = 100;
-    let duration = 3000;
+    let duration = 1500;
     useEffect(() => {
     let startTime;
     let animationFrameId;
