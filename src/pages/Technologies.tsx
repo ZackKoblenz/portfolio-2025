@@ -87,40 +87,40 @@ function Technologies() {
 
 
   return (
-<div className="my-0 overflow-x-scroll overflow-y-hidden items-center justify-center content-center cursor-grab" >
-  <div className="flex flex-row overflow-x-scroll overflow-y-hidden items-center snap-x scroll-pl-[200px]  " ref={containerRef} onMouseDown={handleMouseDown} onTouchStart={handleTouchStart}>
+<div className="my-0 overflow-y-hidden items-center justify-center content-center cursor-grab" >
+  <div className="flex flex-row overflow-y-hidden items-center snap-x scroll-pl-[200px]  " ref={containerRef} onMouseDown={handleMouseDown} onTouchStart={handleTouchStart}>
     <div className={`flex first4 items-center md:translate-x-32`}>
-    <div className='flipcard flex origin-center perspective-[1000px] h-[200px] w-[200px] transition delay-150 duration-300 ease-in-out m-8 my-16 hover:-translate-y-1 hover:scale-101 rotate-y-180 '>
-    <div className="flipcardinner relative transform-3d transition delay-150 duration-300 ease-in-out w-full h-full hover:rotate-x-180">
-      <div className="flipcardfront origin-center backface-hidden rounded-lg h-full w-full absolute shadow-2xl bg-linear-to-r from-blue-500/80 to-sky-500/80  snap-start scroll-ml-12">
-        <img
-        src={jslogo}
-        draggable="false"
-        className="p-8 rotate-y-180" />
-      </div>
-      <div className="flipcardback flex origin-center backface-hidden rounded-lg h-full w-full absolute shadow-2xl bg-linear-to-r from-blue-500/80 to-sky-500/80 snap-start rotate-y-180 text-center align-middle justify-center content-middle">
-        <div className='justify-center content-center align-middle items-center rotate-x-180'>
-        <h2>Javascript</h2>
-        <p>Dynamic Content Language</p>
+        <div className='flipcard flex origin-center perspective-[1000px] h-[200px] w-[200px] transition delay-150 duration-300 ease-in-out m-8 my-16 hover:-translate-y-1 hover:scale-101 rotate-y-180 '>
+        <div className="flipcardinner relative transform-3d transition delay-150 duration-300 ease-in-out w-full h-full hover:rotate-x-180">
+        <div className="flipcardfront origin-center backface-hidden rounded-lg h-full w-full absolute shadow-2xl bg-linear-to-r from-blue-500/80 to-sky-500/80  snap-start scroll-ml-12">
+            <img
+            src={jslogo}
+            draggable="false"
+            className="p-8 rotate-y-180" />
         </div>
-      </div>
-    </div>
-    </div>
+        <div className="flipcardback flex origin-center backface-hidden rounded-lg h-full w-full absolute shadow-2xl bg-linear-to-r from-blue-500/80 to-sky-500/80 snap-start rotate-y-180 text-center align-middle justify-center content-middle">
+            <div className='justify-center content-center align-middle items-center rotate-x-180'>
+            <h2>Javascript</h2>
+            <p>Dynamic Content Language</p>
+            </div>
+        </div>
+        </div>
+        </div>
     <div className='flipcard flex origin-center perspective-[1000px] h-[200px] w-[200px] transition delay-150 duration-300 ease-in-out m-8 hover:-translate-y-1 hover:scale-101 rotate-y-180'>
-    <div className="flipcardinner relative transform-3d transition delay-150 duration-300 ease-in-out w-full h-full hover:rotate-x-180">
-      <div className="flipcardfront flex justify-center content-center align-middle items-center origin-center backface-hidden rounded-lg h-full w-full absolute shadow-2xl bg-linear-to-r from-blue-500/80 to-sky-500/80  snap-start">
-        <img
-        src={reactlogo}
-        draggable="false"
-        className="p-8" />
-      </div>
-      <div className="flipcardback flex origin-center backface-hidden rounded-lg h-full w-full absolute shadow-2xl bg-linear-to-r from-blue-500/80 to-sky-500/80 snap-start rotate-y-180 text-center align-middle justify-center content-middle">
-        <div className='justify-center content-center align-middle items-center rotate-x-180'>
-        <h2>React</h2>
-        <p>Front-end Javascript Framework</p>
+        <div className="flipcardinner relative transform-3d transition delay-150 duration-300 ease-in-out w-full h-full hover:rotate-x-180">
+        <div className="flipcardfront flex justify-center content-center align-middle items-center origin-center backface-hidden rounded-lg h-full w-full absolute shadow-2xl bg-linear-to-r from-blue-500/80 to-sky-500/80  snap-start">
+            <img
+            src={reactlogo}
+            draggable="false"
+            className="p-8" />
         </div>
-      </div>
-    </div>
+        <div className="flipcardback flex origin-center backface-hidden rounded-lg h-full w-full absolute shadow-2xl bg-linear-to-r from-blue-500/80 to-sky-500/80 snap-start rotate-y-180 text-center align-middle justify-center content-middle">
+            <div className='justify-center content-center align-middle items-center rotate-x-180'>
+            <h2>React</h2>
+            <p>Front-end Javascript Framework</p>
+            </div>
+        </div>
+        </div>
     </div>
     <div className='flipcard flex origin-center perspective-[1000px] h-[200px] w-[200px] transition delay-150 duration-300 ease-in-out m-8 hover:-translate-y-1 hover:scale-101 rotate-y-180'>
     <div className="flipcardinner relative transform-3d transition delay-150 duration-300 ease-in-out w-full h-full hover:rotate-x-180">

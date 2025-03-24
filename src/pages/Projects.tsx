@@ -52,12 +52,12 @@ function Projects() {
           <div className='Navbar'>
           <p className="text-2xl xs:text-3xl md:text-5xl">Corecraft SMP (WIP)</p>
           <div className='flex justify-center social-icons'>
-            <a target="_blank" href="https://github.com/ZackKoblenz/" className='justify-center'><img src={github} className="h-5"></img></a>    
           </div>
           </div>
           <div className='Navbar flex-col md:flex-row gap-12'>
               <img src={corecraft} className="w-100% h-auto overflow-hidden transition block delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-110"></img>
               <div className=" flex flex-col justify-center content-center md:text-2xl gap-8 ">
+                <p>Prototype on github created in vanilla HTML, CSS, and JavaScript</p>
                   <ul className='points pl-8'>
                     <li>
                     Allows for users to stay up to date with members of a Content Creator Minecraft server
@@ -69,7 +69,7 @@ function Projects() {
                     The main purpose of the website is to display information about Corecraft and show which members are livestreaming and all of their related YouTube content which is updated automatically using the YouTube API
                     </li>
                     <li>
-                    Created with Typescript, React, HTML, Tailwind CSS, ExpressJS, MySQL.
+                    The official sit is being created with Typescript, React, HTML, Tailwind CSS, ExpressJS, MySQL.
                     </li>
                   </ul>
               </div>
